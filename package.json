@@ -13,5 +13,8 @@
     "cors": "^2.8.5",
     "pg": "^8.8.0",
     "sequelize": "^6.25.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
