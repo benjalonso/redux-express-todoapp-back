@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 
 app.use(cors({
-    origin: 'https://redux-express-todoapp-production.up.railway.app/', // allow to server to accept request from different origin!!
+    origin: '*', // allow to server to accept request from different origin!!
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
     credentials: true, // allow session cookie from browser to pass through!!
     optionsSuccessStatus: 200
