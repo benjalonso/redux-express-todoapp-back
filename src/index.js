@@ -5,8 +5,8 @@ const {PORT} = require('./config.js')
 async function main() {
     try {
         await sequelize.sync({force: false});
-        app.listen(PORT, () => {
-            console.log(`Server is running on port ${PORT}`);
+        app.listen(6953, () => {
+            console.log(`Server is running on port ${6953}`);
         });
     } catch (error) {
         console.log("Unable to connect", error);
